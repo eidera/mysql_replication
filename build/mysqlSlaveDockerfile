@@ -1,0 +1,4 @@
+FROM mysql:5.6.31
+
+RUN echo "[mysqld]" >> /etc/mysql/conf.d/my.cnf && \
+    echo "server-id=11" >> /etc/mysql/conf.d/my.cnf
